@@ -116,8 +116,8 @@ caf::SRTrueParticle FillTrueParticles(TRandom3* rand){
   for(int i = 0;i<n_daughter;i++) 
     daughters.emplace_back(rand->Integer(10)); 
   
-  srp.start_process = static_cast<caf::G4Process>(rand->Integer(caf::G4Process::kG4UNKNOWN +1));
-  srp.end_process = static_cast<caf::G4Process>(rand->Integer(caf::G4Process::kG4UNKNOWN+1));
+  srp.first_process = static_cast<unsigned int>(rand->Integer(1));
+  srp.end_process = static_cast<unsigned int>(rand->Integer(1));
   
   return srp;
 }
