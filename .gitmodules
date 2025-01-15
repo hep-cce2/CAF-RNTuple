@@ -1,0 +1,3 @@
+[submodule "external/duneanaobj"]
+	path = external/duneanaobj
+	url = https://github.com/DUNE/duneanaobj.git
