@@ -37,11 +37,7 @@ This directory contains the test codes for CAF object persistence in TTree and R
 
 **simple_converter.C** FlatCAF written in TTree are written into RNTuple using **RNTupleConverter**
 
-## CAF-RNTuple/src
 
-This directory contains the classes that enable reading and writing of CAF Objects. They are based on the original CAFAna files. 
-
-**CAFRNTuple** Reading Writing Utilites for CAF objects in RNTuple. Probably because of design in CAFRNTuple, this utility might not be needed and RNTuple APIs might be simpler to use directly.
 
 ## CAF-RNTuple/utilities
 
